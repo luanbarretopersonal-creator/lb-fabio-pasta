@@ -482,7 +482,7 @@ textarea.q-input{resize:vertical;min-height:80px;}
 .semana-content{display:none;} .semana-content.active{display:block;}
 @media(max-width:480px){.nav-title span{display:none;}.nav-brand{max-width:100px;}}
 
-</style>
+.semana-content{display:block !important;margin-bottom:18px;}.semana-divider{font-family:'Montserrat',sans-serif;font-size:13px;letter-spacing:1.5px;color:var(--gold);text-transform:uppercase;margin:14px 0 10px;padding-top:8px;border-top:1px solid var(--border);}</style>
 </head>
 <body>
 <nav>
@@ -557,7 +557,7 @@ textarea.q-input{resize:vertical;min-height:80px;}
 
   <div class="section-header"><h2>O que você <span>encontra aqui</span></h2><div class="section-line"></div></div>
   <div class="info-grid">
-    <div class="info-box"><div class="icon">🥗</div><h4>Dieta</h4><p>4 refeições · ~2.400 kcal/dia · refeição 3 com 2 opções (sólida ou prática) · substituições completas.</p></div>
+    <div class="info-box"><div class="icon">🥗</div><h4>Dieta</h4><p>4 refeições · ~2.300 kcal/dia · refeição 3 com 2 opções (sólida ou prática) · substituições completas.</p></div>
     <div class="info-box"><div class="icon">🏋️</div><h4>Treino</h4><p>5 treinos Full Body/semana · A, B e C · ativação e mobilidade incluídas · foco em transferência pro Hyrox.</p></div>
     <div class="info-box"><div class="icon">🏃</div><h4>Cardio</h4><p>Manutenção do Hyrox + meta de 200–250 min/semana · checklist semanal.</p></div>
     <div class="info-box"><div class="icon">📈</div><h4>Evolução</h4><p>Histórico de peso com gráfico e registro de fotos de acompanhamento.</p></div>
@@ -571,7 +571,7 @@ textarea.q-input{resize:vertical;min-height:80px;}
   <div class="section-header"><h2>Planejamento <span>Alimentar</span></h2><div class="section-line"></div></div>
   
   <div class="sub-search-wrap"><h4>🔍 Busca rápida de substitutos</h4><input class="sub-search-input" type="text" id="subSearch" placeholder="Digite o alimento..." oninput="searchSubs()"><div id="sub-results"></div></div>
-  <div class="meal-total"><div class="total-pill"><span class="label">Total diário</span><span class="value">~2.570</span><span style="font-size:10px;color:var(--white-dim);">kcal</span></div></div>
+  <div class="meal-total"><div class="total-pill"><span class="label">Total diário</span><span class="value">~2.325</span><span style="font-size:10px;color:var(--white-dim);">kcal</span></div></div>
 
   <!-- REFEIÇÃO ENTRE TREINOS -->
   <div class="meal-card" style="border-color:rgba(201,168,76,0.4);background:linear-gradient(135deg,rgba(201,168,76,0.04),transparent)">
@@ -585,9 +585,9 @@ textarea.q-input{resize:vertical;min-height:80px;}
 
   <!-- REFEIÇÃO 1 -->
   <div class="meal-card">
-    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">1</div><div><div class="meal-name">Café da Manhã</div><span class="meal-time">Pós-treino manhã</span></div></div><div class="meal-kcal">620 <span>kcal</span></div></div>
+    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">1</div><div><div class="meal-name">Café da Manhã</div><span class="meal-time">Pós-treino manhã</span></div></div><div class="meal-kcal">455 <span>kcal</span></div></div>
     <div class="meal-table-wrap"><div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="meal-table"><thead><tr><th>Alimento</th><th>Qtd.</th><th>kcal</th><th>Substituições (qtd · kcal equiv.)</th></tr></thead><tbody>
-<tr><td class="food-name">5 claras + 1 ovo inteiro</td><td class="food-qty">—</td><td class="food-kcal">171</td><td class="food-sub">Whey protein <strong>40g · ~160kcal</strong><br>Peito de frango cozido <strong>100g · ~163kcal</strong><br>Atum em água <strong>120g · ~132kcal</strong><br>Iogurte grego desnatado <strong>200g · ~116kcal</strong></td></tr><tr><td class="food-name">Pão integral</td><td class="food-qty">2 fatias (~100g)</td><td class="food-kcal">190</td><td class="food-sub">Tapioca (goma seca) <strong>70g · ~147kcal</strong><br>Aveia em flocos <strong>40g · ~154kcal</strong><br>Batata-doce cozida <strong>150g · ~135kcal</strong><br>Wrap Rap10 <strong>1 unidade (35g) · ~94kcal</strong><br>Granola sem açúcar <strong>40g · ~156kcal</strong></td></tr><tr><td class="food-name">Frutas variadas</td><td class="food-qty">300g</td><td class="food-kcal">155</td><td class="food-sub">Banana prata <strong>2 un (200g) · ~178kcal</strong><br>Mamão formosa <strong>400g · ~172kcal</strong><br>Maçã <strong>3 un (300g) · ~156kcal</strong><br>Melancia <strong>500g · ~150kcal</strong><br>Manga <strong>250g · ~155kcal</strong></td></tr><tr><td class="food-name">Aveia ou granola sem açúcar</td><td class="food-qty">30g</td><td class="food-kcal">115</td><td class="food-sub">Granola sem açúcar <strong>30g · ~117kcal</strong><br>Muesli <strong>30g · ~110kcal</strong><br>Farelo de aveia <strong>35g · ~107kcal</strong></td></tr>
+<tr><td class="food-name">5 claras + 1 ovo inteiro</td><td class="food-qty">—</td><td class="food-kcal">171</td><td class="food-sub">Whey protein <strong>40g · ~160kcal</strong><br>Peito de frango cozido <strong>100g · ~163kcal</strong><br>Atum em água <strong>120g · ~132kcal</strong><br>Iogurte grego desnatado <strong>200g · ~116kcal</strong></td></tr><tr><td class="food-name">Pão integral</td><td class="food-qty">2 fatias (~100g)</td><td class="food-kcal">190</td><td class="food-sub">Tapioca (goma seca) <strong>70g · ~147kcal</strong><br>Aveia em flocos <strong>40g · ~154kcal</strong><br>Batata-doce cozida <strong>150g · ~135kcal</strong><br>Wrap Rap10 <strong>1 unidade (35g) · ~94kcal</strong><br>Granola sem açúcar <strong>40g · ~156kcal</strong></td></tr><tr><td class="food-name">Frutas variadas</td><td class="food-qty">200g</td><td class="food-kcal">103</td><td class="food-sub">Banana prata <strong>1 un (115g) · ~102kcal</strong><br>Mamão formosa <strong>240g · ~103kcal</strong><br>Maçã <strong>2 un (200g) · ~104kcal</strong><br>Melancia <strong>340g · ~102kcal</strong><br>Manga <strong>165g · ~102kcal</strong></td></tr>
     </tbody></table></div><div style="text-align:center;font-size:9px;letter-spacing:2px;color:rgba(245,240,232,0.2);padding:4px">← deslize →</div></div>
     <div class="meal-obs-area"><textarea placeholder="Observações desta refeição..." data-key="meal-obs-1" onchange="saveObs(this)"></textarea></div>
   </div>
@@ -603,9 +603,9 @@ textarea.q-input{resize:vertical;min-height:80px;}
 
   <!-- REFEIÇÃO 3 -->
   <div class="meal-card">
-    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">3</div><div><div class="meal-name">Lanche da Tarde</div><span class="meal-time">Pré ou pós 2º treino</span></div></div><div class="meal-kcal">610 <span>kcal</span></div></div>
+    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">3</div><div><div class="meal-name">Lanche da Tarde</div><span class="meal-time">Pré ou pós 2º treino</span></div></div><div class="meal-kcal">530 <span>kcal</span></div></div>
     <div class="meal-table-wrap"><div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="meal-table"><thead><tr><th>Alimento</th><th>Qtd.</th><th>kcal</th><th>Substituições (qtd · kcal equiv.)</th></tr></thead><tbody>
-<tr><td class="food-name">Whey protein</td><td class="food-qty">45g (1 dose)</td><td class="food-kcal">162</td><td class="food-sub">Peito de frango <strong>160g · ~261kcal</strong><br>Atum <strong>200g · ~220kcal</strong><br>Ovos inteiros <strong>3 un · ~213kcal</strong></td></tr><tr><td class="food-name">Aveia ou granola sem açúcar</td><td class="food-qty">50g</td><td class="food-kcal">197</td><td class="food-sub">Granola sem açúcar <strong>50g · ~195kcal</strong><br>Tapioca seca <strong>55g · ~190kcal</strong><br>Batata-doce cozida <strong>215g · ~193kcal</strong></td></tr><tr><td class="food-name">Frutas variadas</td><td class="food-qty">200g</td><td class="food-kcal">103</td><td class="food-sub">Banana prata <strong>1,5 un (150g) · ~133kcal</strong><br>Maçã <strong>2 un (200g) · ~104kcal</strong><br>Mamão <strong>270g · ~116kcal</strong><br>Abacaxi <strong>250g · ~130kcal</strong></td></tr><tr><td class="food-name">Iogurte zero</td><td class="food-qty">200ml</td><td class="food-kcal">82</td><td class="food-sub">Iogurte grego desnatado <strong>170g · ~99kcal</strong><br>Coalhada desnatada <strong>200g · ~82kcal</strong><br>Queijo cottage <strong>150g · ~105kcal</strong></td></tr>
+<tr><td class="food-name">Whey protein</td><td class="food-qty">45g (1 dose)</td><td class="food-kcal">162</td><td class="food-sub">Peito de frango <strong>160g · ~261kcal</strong><br>Atum <strong>200g · ~220kcal</strong><br>Ovos inteiros <strong>3 un · ~213kcal</strong></td></tr><tr><td class="food-name">Aveia ou granola sem açúcar</td><td class="food-qty">30g</td><td class="food-kcal">115</td><td class="food-sub">Granola sem açúcar <strong>30g · ~117kcal</strong><br>Tapioca seca <strong>33g · ~114kcal</strong><br>Batata-doce cozida <strong>130g · ~117kcal</strong></td></tr><tr><td class="food-name">Frutas variadas</td><td class="food-qty">200g</td><td class="food-kcal">103</td><td class="food-sub">Banana prata <strong>1,5 un (150g) · ~133kcal</strong><br>Maçã <strong>2 un (200g) · ~104kcal</strong><br>Mamão <strong>270g · ~116kcal</strong><br>Abacaxi <strong>250g · ~130kcal</strong></td></tr><tr><td class="food-name">Iogurte zero</td><td class="food-qty">200ml</td><td class="food-kcal">82</td><td class="food-sub">Iogurte grego desnatado <strong>170g · ~99kcal</strong><br>Coalhada desnatada <strong>200g · ~82kcal</strong><br>Queijo cottage <strong>150g · ~105kcal</strong></td></tr>
     </tbody></table></div><div style="text-align:center;font-size:9px;letter-spacing:2px;color:rgba(245,240,232,0.2);padding:4px">← deslize →</div></div>
     <div class="meal-obs-area"><textarea placeholder="Observações desta refeição..." data-key="meal-obs-3" onchange="saveObs(this)"></textarea></div>
   </div>
@@ -633,11 +633,11 @@ textarea.q-input{resize:vertical;min-height:80px;}
   Sex → Musculação 3 ou 4 · Sáb → Hyrox ou Cardio · Dom → Recuperação ativa
 </div>
 <div class="treino-tabs"><button class="treino-tab active" onclick="showTreino('trA',this)">Full Body 1</button><button class="treino-tab" onclick="showTreino('trB',this)">Full Body 2</button><button class="treino-tab" onclick="showTreino('trC',this)">Full Body 3</button><button class="treino-tab" onclick="showTreino('trD',this)">Full Body 4</button></div>
-<div id="trA" class="treino-panel active">
+<div id="treino-trA" class="treino-content active">
 <div class="treino-header"><div><div class="treino-title">Full Body <span style="color:var(--gold)">1</span></div></div><div class="treino-day">🔵 Segunda-feira</div></div>
 <div class="treino-actions"><button class="btn-done" id="done-trA" onclick="markDone('trA')">✓ Concluído</button><button class="btn-timer" onclick="openTimer()">⏱ Timer</button><span class="done-badge" id="done-badge-trA"></span></div>
 <div class="warmup-block warmup-superior"><div class="warmup-icon">⚙️</div><div class="warmup-content"><div class="warmup-title" style="color:var(--blue);">Regra de Progressão — Obrigatória</div><div style="font-size:11px;color:var(--white-dim);line-height:1.9;margin-bottom:10px;">Nunca comece com a carga máxima. As séries são <strong style="color:var(--white)">progressivas</strong> — aumente a carga a cada série desde que continue atingindo falha nas reps prescritas.</div><div class="warmup-steps"><div class="warmup-step"><span class="step-num">1ª</span><span class="step-text"><strong>Aquecimento:</strong> carga bem leve · algumas reps · sem falhar</span></div><div class="warmup-step"><span class="step-num">2ª+</span><span class="step-text"><strong>Progrida</strong> a carga até atingir falha nas reps prescritas</span></div></div><div class="warmup-videos-title" style="margin-top:10px;">📱 Mobilidade — Full Body</div><div class="warmup-videos"><a href="https://www.instagram.com/reel/DN1T1hF4gf-/" target="_blank" class="warmup-vid" style="color:var(--blue);border:1px solid rgba(100,140,255,0.3);background:rgba(100,140,255,0.06);">▶ Aquecimento Full Body</a><a href="https://www.instagram.com/reel/DIzjTBhSr95/" target="_blank" class="warmup-vid" style="color:var(--blue);border:1px solid rgba(100,140,255,0.3);background:rgba(100,140,255,0.06);">▶ Mobilidade Ombros</a><a href="https://www.instagram.com/reel/DHqfIjkxlM7/" target="_blank" class="warmup-vid" style="color:var(--blue);border:1px solid rgba(100,140,255,0.3);background:rgba(100,140,255,0.06);">▶ Mobilidade Quadril</a></div></div></div>
-<div class="ex-table-wrap"><div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="ex-table"><thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead><tbody>
+<div class="logica-box"><strong>⚙️ Progressão:</strong> Séries progressivas · 1ª série = aquecimento leve · nunca comece com carga máxima · aumente a carga a cada série até atingir a falha nas reps prescritas.</div><div class="ex-table-wrap"><div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="ex-table"><thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead><tbody>
 <tr><td class="ex-name">Banco Supino Reto</td><td class="ex-series">4</td><td class="ex-reps">8–10</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trA-exex1" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trA','ex1','Banco Supino Reto')" title="Histórico">📊</button></td><td><a target="_blank" href="https://www.youtube.com/results?search_query=Banco+Supino+Reto+execução" class="yt-link">▶</a></td></tr>
 <tr><td class="ex-name">Remada Máquina (Pegada Neutra)<div class="ex-alt-wrap"><button class="ex-alt-btn" onclick="toggleAlt(this)">→</button><div class="ex-alt-content" style="display:none"><span class="ex-alt-label">Alt:</span> Remada Sentada Triângulo</div></div></td><td class="ex-series">4</td><td class="ex-reps">10–12</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trA-exex2" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trA','ex2','Remada Máquina (Pegada Neutra)')" title="Histórico">📊</button></td><td><a target="_blank" href="https://www.youtube.com/results?search_query=Remada+Máquina+(Pegada+Neutra)+execução" class="yt-link">▶</a></td></tr>
 <tr><td class="ex-name">Crossover</td><td class="ex-series">3</td><td class="ex-reps">12–15</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trA-exex3" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trA','ex3','Crossover')" title="Histórico">📊</button></td><td><a target="_blank" href="https://drive.google.com/file/d/1E0ji1a-4vHsbKANUnt64CeqihK0_WVmA/view" class="yt-link">▶</a></td></tr>
@@ -647,11 +647,11 @@ textarea.q-input{resize:vertical;min-height:80px;}
 <tr><td class="ex-name">Leg Press 45</td><td class="ex-series">4</td><td class="ex-reps">10–12</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trA-exex7" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trA','ex7','Leg Press 45')" title="Histórico">📊</button></td><td><a target="_blank" href="https://www.youtube.com/results?search_query=Leg+Press+45+execução" class="yt-link">▶</a></td></tr>
 </tbody></table></div><div style="text-align:center;font-size:9px;letter-spacing:2px;color:rgba(245,240,232,0.2);padding:4px">← deslize →</div></div>
 <div class="obs-box"><textarea placeholder="Observações deste treino..." data-key="obs-trA" onchange="saveObs(this)"></textarea></div>
-</div><div id="trB" class="treino-panel">
+</div><div id="treino-trB" class="treino-content">
 <div class="treino-header"><div><div class="treino-title">Full Body <span style="color:var(--gold)">2</span></div></div><div class="treino-day">🟢 Quarta-feira</div></div>
 <div class="treino-actions"><button class="btn-done" id="done-trB" onclick="markDone('trB')">✓ Concluído</button><button class="btn-timer" onclick="openTimer()">⏱ Timer</button><span class="done-badge" id="done-badge-trB"></span></div>
 <div class="warmup-block warmup-superior"><div class="warmup-icon">⚙️</div><div class="warmup-content"><div class="warmup-title" style="color:var(--blue);">Regra de Progressão — Obrigatória</div><div style="font-size:11px;color:var(--white-dim);line-height:1.9;margin-bottom:10px;">Nunca comece com a carga máxima. As séries são <strong style="color:var(--white)">progressivas</strong> — aumente a carga a cada série desde que continue atingindo falha nas reps prescritas.</div><div class="warmup-steps"><div class="warmup-step"><span class="step-num">1ª</span><span class="step-text"><strong>Aquecimento:</strong> carga bem leve · algumas reps · sem falhar</span></div><div class="warmup-step"><span class="step-num">2ª+</span><span class="step-text"><strong>Progrida</strong> a carga até atingir falha nas reps prescritas</span></div></div><div class="warmup-videos-title" style="margin-top:10px;">📱 Mobilidade — Full Body</div><div class="warmup-videos"><a href="https://www.instagram.com/reel/DN1T1hF4gf-/" target="_blank" class="warmup-vid" style="color:var(--blue);border:1px solid rgba(100,140,255,0.3);background:rgba(100,140,255,0.06);">▶ Aquecimento Full Body</a><a href="https://www.instagram.com/reel/DIzjTBhSr95/" target="_blank" class="warmup-vid" style="color:var(--blue);border:1px solid rgba(100,140,255,0.3);background:rgba(100,140,255,0.06);">▶ Mobilidade Ombros</a><a href="https://www.instagram.com/reel/DHqfIjkxlM7/" target="_blank" class="warmup-vid" style="color:var(--blue);border:1px solid rgba(100,140,255,0.3);background:rgba(100,140,255,0.06);">▶ Mobilidade Quadril</a></div></div></div>
-<div class="ex-table-wrap"><div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="ex-table"><thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead><tbody>
+<div class="logica-box"><strong>⚙️ Progressão:</strong> Séries progressivas · 1ª série = aquecimento leve · nunca comece com carga máxima · aumente a carga a cada série até atingir a falha nas reps prescritas.</div><div class="ex-table-wrap"><div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="ex-table"><thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead><tbody>
 <tr><td class="ex-name">Supino Inclinado com Halteres</td><td class="ex-series">4</td><td class="ex-reps">8–10</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trB-exex1" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trB','ex1','Supino Inclinado com Halteres')" title="Histórico">📊</button></td><td><a target="_blank" href="https://drive.google.com/file/d/1W-MZsADzV86Da2cYnmw_P3PTOkXz7kaQ/view" class="yt-link">▶</a></td></tr>
 <tr><td class="ex-name">Pulldown com Corda</td><td class="ex-series">4</td><td class="ex-reps">10–12</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trB-exex2" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trB','ex2','Pulldown com Corda')" title="Histórico">📊</button></td><td><a target="_blank" href="https://drive.google.com/file/d/1sm_LpwxolqxJR8yAIrWKVkuVAwUoUAYl/view" class="yt-link">▶</a></td></tr>
 <tr><td class="ex-name">Crucifixo na Máquina<div class="ex-alt-wrap"><button class="ex-alt-btn" onclick="toggleAlt(this)">→</button><div class="ex-alt-content" style="display:none"><span class="ex-alt-label">Alt:</span> Crossover Polia Baixa</div></div></td><td class="ex-series">3</td><td class="ex-reps">12–15</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trB-exex3" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trB','ex3','Crucifixo na Máquina')" title="Histórico">📊</button></td><td><a target="_blank" href="https://www.youtube.com/results?search_query=Crucifixo+na+Máquina+execução" class="yt-link">▶</a></td></tr>
@@ -661,11 +661,11 @@ textarea.q-input{resize:vertical;min-height:80px;}
 <tr><td class="ex-name">Tríceps Francês na Polia com Corda</td><td class="ex-series">3</td><td class="ex-reps">12–15</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trB-exex7" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trB','ex7','Tríceps Francês na Polia com Corda')" title="Histórico">📊</button></td><td><a target="_blank" href="https://www.youtube.com/results?search_query=Tríceps+Francês+na+Polia+com+Corda+execução" class="yt-link">▶</a></td></tr>
 </tbody></table></div><div style="text-align:center;font-size:9px;letter-spacing:2px;color:rgba(245,240,232,0.2);padding:4px">← deslize →</div></div>
 <div class="obs-box"><textarea placeholder="Observações deste treino..." data-key="obs-trB" onchange="saveObs(this)"></textarea></div>
-</div><div id="trC" class="treino-panel">
+</div><div id="treino-trC" class="treino-content">
 <div class="treino-header"><div><div class="treino-title">Full Body <span style="color:var(--gold)">3</span></div></div><div class="treino-day">🟡 Sexta-feira</div></div>
 <div class="treino-actions"><button class="btn-done" id="done-trC" onclick="markDone('trC')">✓ Concluído</button><button class="btn-timer" onclick="openTimer()">⏱ Timer</button><span class="done-badge" id="done-badge-trC"></span></div>
 <div class="warmup-block warmup-superior"><div class="warmup-icon">⚙️</div><div class="warmup-content"><div class="warmup-title" style="color:var(--blue);">Regra de Progressão — Obrigatória</div><div style="font-size:11px;color:var(--white-dim);line-height:1.9;margin-bottom:10px;">Nunca comece com a carga máxima. As séries são <strong style="color:var(--white)">progressivas</strong> — aumente a carga a cada série desde que continue atingindo falha nas reps prescritas.</div><div class="warmup-steps"><div class="warmup-step"><span class="step-num">1ª</span><span class="step-text"><strong>Aquecimento:</strong> carga bem leve · algumas reps · sem falhar</span></div><div class="warmup-step"><span class="step-num">2ª+</span><span class="step-text"><strong>Progrida</strong> a carga até atingir falha nas reps prescritas</span></div></div><div class="warmup-videos-title" style="margin-top:10px;">📱 Mobilidade — Full Body</div><div class="warmup-videos"><a href="https://www.instagram.com/reel/DN1T1hF4gf-/" target="_blank" class="warmup-vid" style="color:var(--blue);border:1px solid rgba(100,140,255,0.3);background:rgba(100,140,255,0.06);">▶ Aquecimento Full Body</a><a href="https://www.instagram.com/reel/DIzjTBhSr95/" target="_blank" class="warmup-vid" style="color:var(--blue);border:1px solid rgba(100,140,255,0.3);background:rgba(100,140,255,0.06);">▶ Mobilidade Ombros</a><a href="https://www.instagram.com/reel/DHqfIjkxlM7/" target="_blank" class="warmup-vid" style="color:var(--blue);border:1px solid rgba(100,140,255,0.3);background:rgba(100,140,255,0.06);">▶ Mobilidade Quadril</a></div></div></div>
-<div class="ex-table-wrap"><div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="ex-table"><thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead><tbody>
+<div class="logica-box"><strong>⚙️ Progressão:</strong> Séries progressivas · 1ª série = aquecimento leve · nunca comece com carga máxima · aumente a carga a cada série até atingir a falha nas reps prescritas.</div><div class="ex-table-wrap"><div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="ex-table"><thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead><tbody>
 <tr><td class="ex-name">Supino Reto com Halteres</td><td class="ex-series">4</td><td class="ex-reps">8–10</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trC-exex1" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trC','ex1','Supino Reto com Halteres')" title="Histórico">📊</button></td><td><a target="_blank" href="https://drive.google.com/file/d/1tz6fRcmWpt1zNlNrZPPOIyT2qNkYEMTQ/view" class="yt-link">▶</a></td></tr>
 <tr><td class="ex-name">Puxada Neutra Triângulo</td><td class="ex-series">4</td><td class="ex-reps">8–10</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trC-exex2" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trC','ex2','Puxada Neutra Triângulo')" title="Histórico">📊</button></td><td><a target="_blank" href="https://drive.google.com/file/d/17ZWS3AhP5PWvcvEEn0dfTTvHD7QGfi8g/view" class="yt-link">▶</a></td></tr>
 <tr><td class="ex-name">Crucifixo Inclinado com Halteres</td><td class="ex-series">3</td><td class="ex-reps">12–15</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trC-exex3" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trC','ex3','Crucifixo Inclinado com Halteres')" title="Histórico">📊</button></td><td><a target="_blank" href="https://drive.google.com/file/d/14tqi3aFNCJpuX7v1W1t1opcu9WrXKY2B/view" class="yt-link">▶</a></td></tr>
@@ -675,11 +675,11 @@ textarea.q-input{resize:vertical;min-height:80px;}
 <tr><td class="ex-name">Leg Horizontal</td><td class="ex-series">4</td><td class="ex-reps">10–12</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trC-exex7" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trC','ex7','Leg Horizontal')" title="Histórico">📊</button></td><td><a target="_blank" href="https://drive.google.com/file/d/1xBoO6qds5YoocHs2cMK6DDOwDAWGzTcZ/view" class="yt-link">▶</a></td></tr>
 </tbody></table></div><div style="text-align:center;font-size:9px;letter-spacing:2px;color:rgba(245,240,232,0.2);padding:4px">← deslize →</div></div>
 <div class="obs-box"><textarea placeholder="Observações deste treino..." data-key="obs-trC" onchange="saveObs(this)"></textarea></div>
-</div><div id="trD" class="treino-panel">
+</div><div id="treino-trD" class="treino-content">
 <div class="treino-header"><div><div class="treino-title">Full Body <span style="color:var(--gold)">4</span></div></div><div class="treino-day">🔴 Sábado</div></div>
 <div class="treino-actions"><button class="btn-done" id="done-trD" onclick="markDone('trD')">✓ Concluído</button><button class="btn-timer" onclick="openTimer()">⏱ Timer</button><span class="done-badge" id="done-badge-trD"></span></div>
 <div class="warmup-block warmup-superior"><div class="warmup-icon">⚙️</div><div class="warmup-content"><div class="warmup-title" style="color:var(--blue);">Regra de Progressão — Obrigatória</div><div style="font-size:11px;color:var(--white-dim);line-height:1.9;margin-bottom:10px;">Nunca comece com a carga máxima. As séries são <strong style="color:var(--white)">progressivas</strong> — aumente a carga a cada série desde que continue atingindo falha nas reps prescritas.</div><div class="warmup-steps"><div class="warmup-step"><span class="step-num">1ª</span><span class="step-text"><strong>Aquecimento:</strong> carga bem leve · algumas reps · sem falhar</span></div><div class="warmup-step"><span class="step-num">2ª+</span><span class="step-text"><strong>Progrida</strong> a carga até atingir falha nas reps prescritas</span></div></div><div class="warmup-videos-title" style="margin-top:10px;">📱 Mobilidade — Full Body</div><div class="warmup-videos"><a href="https://www.instagram.com/reel/DN1T1hF4gf-/" target="_blank" class="warmup-vid" style="color:var(--blue);border:1px solid rgba(100,140,255,0.3);background:rgba(100,140,255,0.06);">▶ Aquecimento Full Body</a><a href="https://www.instagram.com/reel/DIzjTBhSr95/" target="_blank" class="warmup-vid" style="color:var(--blue);border:1px solid rgba(100,140,255,0.3);background:rgba(100,140,255,0.06);">▶ Mobilidade Ombros</a><a href="https://www.instagram.com/reel/DHqfIjkxlM7/" target="_blank" class="warmup-vid" style="color:var(--blue);border:1px solid rgba(100,140,255,0.3);background:rgba(100,140,255,0.06);">▶ Mobilidade Quadril</a></div></div></div>
-<div class="ex-table-wrap"><div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="ex-table"><thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead><tbody>
+<div class="logica-box"><strong>⚙️ Progressão:</strong> Séries progressivas · 1ª série = aquecimento leve · nunca comece com carga máxima · aumente a carga a cada série até atingir a falha nas reps prescritas.</div><div class="ex-table-wrap"><div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="ex-table"><thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead><tbody>
 <tr><td class="ex-name">Flexão de Braços</td><td class="ex-series">4</td><td class="ex-reps">10–15</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trD-exex1" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trD','ex1','Flexão de Braços')" title="Histórico">📊</button></td><td><a target="_blank" href="https://www.youtube.com/results?search_query=Flexão+de+Braços+execução" class="yt-link">▶</a></td></tr>
 <tr><td class="ex-name">Puxada Neutra Barra H</td><td class="ex-series">4</td><td class="ex-reps">8–10</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trD-exex2" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trD','ex2','Puxada Neutra Barra H')" title="Histórico">📊</button></td><td><a target="_blank" href="https://www.youtube.com/results?search_query=Puxada+Neutra+Barra+H+execução" class="yt-link">▶</a></td></tr>
 <tr><td class="ex-name">Crucifixo com Halteres</td><td class="ex-series">3</td><td class="ex-reps">12–15</td><td><input class="load-input" type="text" placeholder="kg" data-key="load-trD-exex3" onchange="saveLoad(this)"><button class="load-history-btn" onclick="showHist('trD','ex3','Crucifixo com Halteres')" title="Histórico">📊</button></td><td><a target="_blank" href="https://www.youtube.com/results?search_query=Crucifixo+com+Halteres+execução" class="yt-link">▶</a></td></tr>
@@ -701,13 +701,9 @@ textarea.q-input{resize:vertical;min-height:80px;}
   Domingo = Recuperação ativa (mobilidade, natação leve)
 </div>
 
-<div class="cardio-week-tabs" style="display:flex;gap:7px;margin-bottom:20px;flex-wrap:wrap;">
-  <button class="cw-tab active" onclick="showCW('cw1',this)">📅 Semana 1</button>
-  <button class="cw-tab" onclick="showCW('cw2',this)">📅 Semana 2</button>
-  <button class="cw-tab" onclick="showCW('cw3',this)">📅 Semana 3</button>
-</div>
 
-<div id="cw1" class="treino-panel active">
+
+<div id="cw1" class="semana-content"><div class="semana-divider">📅 Semana 1</div>
 <div style="background:var(--dark2);border:1px solid var(--border);border-radius:6px;padding:18px;margin-bottom:12px;">
   <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
     <div style="font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:700;color:var(--gold);line-height:1;min-width:36px;">1</div>
@@ -787,7 +783,7 @@ textarea.q-input{resize:vertical;min-height:80px;}
 </div>
 </div>
 
-<div id="cw2" class="treino-panel">
+<div id="cw2" class="semana-content"><div class="semana-divider">📅 Semana 2</div>
 <div style="background:var(--dark2);border:1px solid var(--border);border-radius:6px;padding:18px;margin-bottom:12px;">
   <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
     <div style="font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:700;color:var(--gold);line-height:1;min-width:36px;">1</div>
@@ -867,7 +863,7 @@ textarea.q-input{resize:vertical;min-height:80px;}
 </div>
 </div>
 
-<div id="cw3" class="treino-panel">
+<div id="cw3" class="semana-content"><div class="semana-divider">📅 Semana 3</div>
 <div style="background:var(--dark2);border:1px solid var(--border);border-radius:6px;padding:18px;margin-bottom:12px;">
   <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
     <div style="font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:700;color:var(--gold);line-height:1;min-width:36px;">1</div>
@@ -1737,23 +1733,7 @@ function getVideoLink(name) {
   return bestScore >= 2 ? best : null;
 }
 
-function resolveVideoLinks() {
-  document.querySelectorAll('.yt-link[data-exercise]').forEach(a => {
-    const ex = a.getAttribute('data-exercise');
-    const url = getVideoLink(ex);
-    if (url) {
-      a.href = url;
-      a.target = '_blank';
-      a.innerHTML = '▶ VER';
-      a.style.color = '#C9A84C';
-      a.style.borderColor = 'rgba(201,168,76,0.5)';
-    } else {
-      a.style.opacity = '0.25';
-      a.removeAttribute('href');
-    }
-  });
-}
-document.addEventListener('DOMContentLoaded', resolveVideoLinks);
+// (removido: match automático antigo de vídeos)
 
 
 // ── NAVEGAÇÃO ──
